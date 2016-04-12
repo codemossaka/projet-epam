@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, dl, dt, dd, ol, ul,
+li, legend, table, tbody, tr, th, td {
+    outline: 0;
+	margin: 0;
+	padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6,a,li,dl, dt, dd, ol, ul,
+li, legend, table, tbody, tr, th, td  {
+   /* text-shadow: 1px 1px gray; */
+}
+
+input {
+	padding: 0;
+}
+
+textarea {
+	margin: 0;
+}
+
+input, textarea {
+	outline: none;
+	
+}
+input:active,textarea:activee, input:focus, textarea:focus {
+		outline: none;
+	}
+table {
+	border-spacing: 0;
+}
+
+body {
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+  font-size: 13px;
+}
