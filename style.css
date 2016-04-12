@@ -84,7 +84,7 @@ aside{
 }
 .aside-head{
     vertical-align: top;
-    max-height: 81px;
+    height: 81px;
     width: 200px;
     border-bottom: 5px solid #181e2c;
     padding-top: 41px;
