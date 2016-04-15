@@ -69,17 +69,19 @@ header{
 section{
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 aside, article {
     display: inline-block;
 }
-aside{
+aside {
     width: 200px;
     background-color: #1f2637; 
     height: 100%;
     color: #78829d;
     font-size: 13px;
     vertical-align: top;
+    overflow: auto;
     
 }
 .aside-head{
@@ -264,6 +266,10 @@ input{
 .books{
     margin-top: 25px;
     overflow-y: scroll;
+    margin-left: 30px;
+    margin-right: auto;
+    height: 100%;
+    padding-bottom: 50px;
 }
 .row-one{
     
@@ -284,6 +290,7 @@ input{
 .legende {
     line-height: 2;
 }
+
 .star {
     background: url(img/star.png);
     background-repeat: repeat-x;
@@ -306,7 +313,7 @@ footer{
     width: 50px;
     position: absolute;
     text-align: center;
-    color: red;
+    color: aqua;
     line-height: 2;
     font-size: 2em;
     
@@ -321,29 +328,15 @@ footer{
     background: #1f2637;
     
 }
-@media all and (max-width: 768px) {
-   .books figure img{
-        height: 80px;
-        width: 60px;
-        }
-    .books figure {
-        width: 70px;
-        vertical-align: top;
-    }
+.foot-text:before {
+    background: url(icons/clock.png);
+    background-repeat: no-repeat;
+    content: "";
+    margin-left: -19px;
+    padding: 1em;
+    position: absolute
+    
 }
-@media all and (min-width: 768px) and (max-width:992px) {
-    .books figure img{
-        height: 160px;
-        width: 90px;
-        }
-    .books figure {
-        width: 90px;
-        vertical-align: top;
-    }
-}
-@media all and (min-width: 992px) and (max-width:1100) {
-    .books figure img{
-        height: 284px;
-        width: 173px;
-        }
+.foot-content {
+    padding-left: 10px;
 }
