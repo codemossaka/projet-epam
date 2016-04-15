@@ -131,10 +131,10 @@ aside a:visited{
 }
 
 
-.nav-bar li{
+.nav-bar li {
     line-height: 3;
 }
-.nav-bar a{
+.nav-bar a {
     display: block;
     height: 40px;
 }
@@ -280,12 +280,12 @@ input{
     margin-top: ;
 }
 .books figure {
-    display: inline-block;
-    margin: 2px;
     color: #6f7d95;
+    display: inline-block;
+    margin: 16px 2px 2px;
     vertical-align: top;
 }
-.books figure img{
+.books figure .icone {
     height: 284px;
     width: 193px;
     border-radius: 10px;
@@ -293,12 +293,16 @@ input{
 .legende {
     line-height: 2;
 }
-
+.book-image {
+    height: 250px;
+    width: 193px;
+}
 .star {
-    background: url(img/star.png);
-    background-repeat: repeat-x;
+    //background: url(img/star.png);
+   // background-repeat: repeat-x;
     display: block;
-    width: 74px;
+   // width: 74px;
+    //height: 5px;
 }
 
 footer{
